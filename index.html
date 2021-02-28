@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css" media="screen">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Simplesmente</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="titulo">Cadastro simples</h1>
+        <br>
+    </div>
+
+    <div>
+        <form name="principal">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="add" class="invisivel">x</label>
+                    <input type="button" class="botao" id="add" value="add">
+                </div>
+
+                <div class="campo">
+                    <label for="update" class="invisivel">y</label>
+                    <input type="button" class="botao" id="update" value="Alterar">
+                </div>
+            </fieldset>
+
+            <h3>Todos cadastrados:</h3>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
