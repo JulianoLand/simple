@@ -41,7 +41,7 @@ npm install
 npm start
 ```
 
-##🔄 Alternativas sugeridas:
+## 🔄 Alternativas sugeridas:
 
 lowdb: Banco de dados local baseado em arquivos JSON. Ideal para pequenos projetos.
 better-sqlite3: Rápido e leve, baseado em SQLite, ótimo para aplicações desktop.
@@ -50,6 +50,6 @@ Electron Store: Armazenamento simples baseado em JSON com integração direta ao
 Para projetos simples com persistência local, lowdb ou Electron Store são boas escolhas. Para mais robustez, considere better-sqlite3.
 
 
-##📚 Objetivo
+## 📚 Objetivo
 
 Este respositório foi criado com fins **educacionais**, para experimentos de criação de aplicação desktop com *Electron* e manipulação de dados locais.
